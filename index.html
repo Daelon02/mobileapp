@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MobileApp</title>
-    <link rel="stylesheet" href="../mobileapp/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"> 
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,12 +13,12 @@
 </head>
 <body>
    <div class="container-fluid">
-        <nav class="m-auto col-12 navbar navbar-expand-lg navbar-light border border-dark mr-1 position-relative bg-white" style="width: 1240px; height: 75px; top:20px; right: 6px;">
+        <nav class="m-auto col-12 navbar navbar-expand-lg navbar-light border border-dark mr-1 position-relative bg-white" style="width: 1240px; height: 75px; top:20px; right: 6px; z-index: 3;">
             <a class="navbar-brand ml-3 position-relative" href="#" style="font-size: 30px; font-family: 'Raleway', sans-serif; left: 4px;">Mobileapp</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="bg-white navbar-collapse text-right m-auto col-4 collapse" id="navbarNav" style="top: 2px;">
+            <div class="bg-white navbar-collapse text-right m-auto col-4 collapse" id="navbarNav" style="top: 2px; z-index: 3;">
               <ul class="navbar-nav">
                 <li class="nav-item ml-5">
                     <a class="nav-link position-relative ml-3" href="#" style="font-size: 13px; font-family: 'Open Sans', sans-serif; right: 44px;">HOME <span class="sr-only">(current)</span></a>
@@ -38,7 +38,19 @@
               </ul>
             </div>
           </nav>
-    </div>
+          <img src="image/firstbg.jpg" class="img-fluid mb-5 position-relative" style="bottom: 75px; z-index: 1; height: 745px; pointer-events: none; ">
+          <p class="text-left position-relative m-auto col-6" style="font-family: 'Raleway', sans-serif; font-size: 42px; bottom: 700px; z-index: 2; color:white; right: 105px;">Introducing Mobileapp</p>
+          <p class="text-left position-relative m-auto col-6" style="font-family: 'OpenSans', sans-serif; font-size: 22px; bottom: 690px; z-index: 2; color:white; right: 105px;">Lorem ipsum dolor sit. Praesent</p>
+          <p class="text-left position-relative m-auto col-6" style="font-family: 'OpenSans', sans-serif; font-size: 20px; bottom: 650px; z-index: 2; color:white; right: 105px;">>semper scelerisque tristique a enim</p>
+          <p class="text-left position-relative m-auto col-6" style="font-family: 'OpenSans', sans-serif; font-size: 20px; bottom: 630px; z-index: 2; color:white; right: 105px;">>Integer ut mattis nulla, eget vehicila elit</p>
+          <p class="text-left position-relative m-auto col-6" style="font-family: 'OpenSans', sans-serif; font-size: 20px; bottom: 610px; z-index: 2; color:white; right: 105px;">>Praesent rutrum ac nunc et</p>
+          <p class="col-6 m-auto">
+          <button type="button" class="btn text-center position-relative m-auto" style="background-color: #17d0ac; color: #ffff; font-family: 'OpenSans', sans-serif; font-size: 16px; width: 210px; height: 50px; right: 100px; bottom: 550px; z-index: 2;">Download</button>
+        </p>
+          <p class="text-right col-8 m-auto" style="z-index: 2; pointer-events: none; bottom:900px; left:85px;">
+          <img src="image/iphones.jpg" class="img-fluid">
+          </p>
+        </div>
 
 
 

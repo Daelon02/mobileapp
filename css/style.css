@@ -1,6 +1,9 @@
 body{
     width: 100%;
-    background-image: url(../img/firstbg.png);
-    background-size: 1920px 932px;
 }
 
+.text{
+z-index: 2;
+font-size: 22px;
+font-family: 'OpenSans', sans-serif;
+}
