@@ -7,3 +7,19 @@ z-index: 2;
 font-size: 22px;
 font-family: 'OpenSans', sans-serif;
 }
+
+.text1 {
+    position: absolute;
+    left: 40px;
+    top: 29px;
+    background: #fff;
+    padding: 0 10px;
+}
+.text2 {
+    position: absolute;
+    right: 40px;
+    top: 29px;
+    background: #fff;
+    padding: 0 10px;
+}
+
