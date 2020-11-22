@@ -105,3 +105,17 @@ hr {
         left: 50px;
     }
 }
+
+@media (max-width: 375px){
+    .pos-image {/*не является классом bootstrap*/
+        position: absolute;
+        bottom: 40px;
+        left: 210px;
+        width: 200px;
+    }
+    .pos-butt {/*не является классом bootstrap*/
+        position: relative;
+        top: -280px;
+        left: 30px;
+    }
+}
