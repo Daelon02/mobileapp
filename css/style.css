@@ -15,6 +15,7 @@ font-family: 'OpenSans', sans-serif;
     background: #fff;
     padding: 0 10px;
 }
+
 .text2 {
     position: absolute;
     right: 40px;
@@ -92,30 +93,115 @@ hr {
     border: none;
 }
 
+.block-video-lg{
+    bottom: 450px; 
+    width: 400px;
+    right: 200px;
+}
+
+.vid-main-text-lg{
+    font-size: 28px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.vid-primary-text-lg{
+    font-size: 16px; 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.video-lg{
+    width: 560px;
+    height: 260px;
+}
+
 @media (max-width: 576px){
-    .pos-image {/*не является классом bootstrap*/
+    .pos-image {
         position: absolute;
         bottom: 40px;
         left: 240px;
         width: 200px;
     }
-    .pos-butt {/*не является классом bootstrap*/
+
+    .pos-butt {
         position: relative;
         top: -280px;
         left: 50px;
     }
+
+    .pos-footer{
+        position: relative;
+        top: 1200px;
+        
+    }
+
+    .bg-contacts{
+        height: 800px;
+        width: 500px;
+    }
+
+    .text-sm{
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .text-lg{
+        font-size: 36px;
+    }
+
+    .block-video-sm{
+        position: relative;
+        left: 10px;
+    }
+
+    .vid-main-text{
+        position: relative;
+        bottom: 40px;
+        font-size: 28px; 
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .vid-primary-text{
+        position: relative;
+        bottom: 50px;
+        font-size: 16px; 
+        font-family: 'Open Sans', sans-serif; 
+        color: #ffff;
+    }
+
+    .vid-icons{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .video{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        right: 250px;
+        top: 170px;
+    }
+
+    .video-sm{
+        width: 200px;
+        height: 150px;
+        left: 200px;
+    }
 }
 
 @media (max-width: 375px){
-    .pos-image {/*не является классом bootstrap*/
+    .pos-image {
         position: absolute;
         bottom: 40px;
         left: 210px;
         width: 200px;
     }
-    .pos-butt {/*не является классом bootstrap*/
+    .pos-butt {
         position: relative;
         top: -280px;
         left: 30px;
     }
+    .text-sm{
+        font-size: 14px;
+    }
+
 }
