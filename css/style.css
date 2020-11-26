@@ -115,7 +115,7 @@ hr {
 }
 
 .form-footer{
-    width: 600px;
+    width: 1300px;
 }
 
 @media (max-width: 576px){
@@ -194,12 +194,25 @@ hr {
     .form-footer{
         width: 150px;
         right: 800px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .form-name{
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .form-mail{
+        opacity: 0;
+        pointer-events: none;
     }
 
     .butt-footer{
         top: -45px;
         left: 100px;
     }
+
 }
 
 @media (max-width: 375px){
