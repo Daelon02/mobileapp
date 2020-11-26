@@ -114,6 +114,10 @@ hr {
     height: 260px;
 }
 
+.form-footer{
+    width: 600px;
+}
+
 @media (max-width: 576px){
     .pos-image {
         position: absolute;
@@ -186,6 +190,16 @@ hr {
         height: 150px;
         left: 200px;
     }
+
+    .form-footer{
+        width: 150px;
+        right: 800px;
+    }
+
+    .butt-footer{
+        top: -45px;
+        left: 100px;
+    }
 }
 
 @media (max-width: 375px){
@@ -203,5 +217,4 @@ hr {
     .text-sm{
         font-size: 14px;
     }
-
 }
