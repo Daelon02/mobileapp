@@ -231,3 +231,23 @@ hr {
         font-size: 14px;
     }
 }
+
+.features{
+    background-color: #fff;
+    border: none;
+}
+
+.video{
+    background-color: #fff;
+    border: none;
+}
+
+.team{
+    background-color: #fff;
+    border: none;
+}
+
+.contacts{
+    background-color: #fff;
+    border: none;
+}
